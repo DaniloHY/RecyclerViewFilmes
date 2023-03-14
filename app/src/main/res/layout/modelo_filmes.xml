@@ -3,22 +3,30 @@
     android:id="@+id/idCardViewFilmes"
     android:layout_width="200dp"
     android:layout_height="320dp"
-    android:backgroundTint="#2c2c2c"
     android:clickable="true">
 
-    <ImageView
-        android:id="@+id/idImgFilmes"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/casamento" />
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/idTituloFilme"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Casamento Armado"
-        android:textColor="#000"
-        android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/idImgFilmes"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/casamento" />
 
+        <TextView
+            android:id="@+id/idTituloFilme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Casamento Armado"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </androidx.cardview.widget.CardView>
