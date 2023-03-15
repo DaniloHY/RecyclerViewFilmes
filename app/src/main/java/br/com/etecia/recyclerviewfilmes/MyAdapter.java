@@ -1,5 +1,6 @@
 package br.com.etecia.recyclerviewfilmes;
 
+import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -9,8 +10,20 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.List;
+
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
+    private Context mContexto;
+    private List<Filmes> lstFilmes;
+
+    //criando o construtor da classe com parâmetros
+
+
+    public MyAdapter(Context mContexto, List<Filmes> lstFilmes) {
+        this.mContexto = mContexto;
+        this.lstFilmes = lstFilmes;
+    }
 
     @NonNull
     @Override
