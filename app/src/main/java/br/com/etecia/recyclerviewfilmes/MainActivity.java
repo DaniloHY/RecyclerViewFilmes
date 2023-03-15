@@ -19,7 +19,13 @@ public class MainActivity extends AppCompatActivity {
         //criando a base de dados para carregamento da lista de filmes
         listaFilmes = new ArrayList<>();
 
+        listaFilmes.add(
+                new Filmes("Casamento Armado",
+                        "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) reúnem suas famílias para o casamento do destino final.",
+                        "Comédia/Ação",
+                        R.drawable.casamento));
+
         //criando a classe adaptadora e passando os parâmetros
-        MyAdapter adapter = new MyAdapter(getApplicationContext(),);
+        MyAdapter adapter = new MyAdapter(getApplicationContext(),listaFilmes);
     }
 }
