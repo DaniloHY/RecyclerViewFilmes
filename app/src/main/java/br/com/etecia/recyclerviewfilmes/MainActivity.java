@@ -35,8 +35,14 @@ public class MainActivity extends AppCompatActivity {
         //criando a classe adaptadora e passando os parâmetros
         MyAdapter adapter = new MyAdapter(getApplicationContext(),listaFilmes);
 
-        //Tipo de layout
+        //Tipo de layout que a lista irá seguir
 
         idRecyclerView.setLayoutManager(new GridLayoutManager(getApplicationContext(),2));
+
+        //fixador de tamanho da lista - deixar mais rápida
+        idRecyclerView.setHasFixedSize(true);
+
+        //ligar o recyclerview ao adaptador
+        idRecyclerView.setAdapter(adapter);
     }
 }
