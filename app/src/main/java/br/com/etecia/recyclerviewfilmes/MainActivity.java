@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Declarar recyclerview
     RecyclerView idRecyclerView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,13 +32,38 @@ public class MainActivity extends AppCompatActivity {
                         "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) reúnem suas famílias para o casamento do destino final.",
                         "Comédia/Ação",
                         R.drawable.casamento));
+        listaFilmes.add(
+                new Filmes("Casamento Armado",
+                        "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) reúnem suas famílias para o casamento do destino final.",
+                        "Comédia/Ação",
+                        R.drawable.casamento));
+        listaFilmes.add(
+                new Filmes("Casamento Armado",
+                        "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) reúnem suas famílias para o casamento do destino final.",
+                        "Comédia/Ação",
+                        R.drawable.casamento));
+        listaFilmes.add(
+                new Filmes("Casamento Armado",
+                        "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) reúnem suas famílias para o casamento do destino final.",
+                        "Comédia/Ação",
+                        R.drawable.casamento));
+        listaFilmes.add(
+                new Filmes("Casamento Armado",
+                        "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) reúnem suas famílias para o casamento do destino final.",
+                        "Comédia/Ação",
+                        R.drawable.casamento));
+        listaFilmes.add(
+                new Filmes("Casamento Armado",
+                        "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) reúnem suas famílias para o casamento do destino final.",
+                        "Comédia/Ação",
+                        R.drawable.casamento));
 
         //criando a classe adaptadora e passando os parâmetros
-        MyAdapter adapter = new MyAdapter(getApplicationContext(),listaFilmes);
+        MyAdapter adapter = new MyAdapter(getApplicationContext(), listaFilmes);
 
         //Tipo de layout que a lista irá seguir
 
-        idRecyclerView.setLayoutManager(new GridLayoutManager(getApplicationContext(),2));
+        idRecyclerView.setLayoutManager(new GridLayoutManager(getApplicationContext(), 2));
 
         //fixador de tamanho da lista - deixar mais rápida
         idRecyclerView.setHasFixedSize(true);
