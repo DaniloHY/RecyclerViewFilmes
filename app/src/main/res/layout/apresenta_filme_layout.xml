@@ -28,24 +28,26 @@
 
 
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal">
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
     <TextView
-        android:id="@+id/clickCategoria"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Categoria: "
         android:layout_gravity="center_horizontal"
+        android:text="Categoria:"
         android:textStyle="bold"
         android:textColor="#000"
         android:textSize="20sp"
         android:layout_margin="10dp"/>
 
     <TextView
-        android:id="@+id/Categoria"
+        android:id="@+id/clickCategoria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Drama"
@@ -57,16 +59,17 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        >
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
     <TextView
-        android:id="@+id/clickCategoria"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Categoria"
+        android:text="Descrição:"
         android:layout_gravity="center_horizontal"
         android:textStyle="bold"
         android:textColor="#000"
@@ -75,10 +78,10 @@
 
     <TextView
         android:layout_marginLeft="20dp"
-        android:id="@+id/Categoria"
+        android:id="@+id/clickDescricao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Drama"
+        android:text="descricão"
         android:layout_gravity="center_horizontal"
         android:textStyle="bold"
         android:textColor="#000"
@@ -87,33 +90,41 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        >
-    <TextView
-        android:id="@+id/clickCategoria"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+    <RatingBar
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Categoria"
-        android:layout_gravity="center_horizontal"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:textSize="20sp"
-        android:layout_margin="10dp"/>
+        android:numStars="1" />
 
-    <TextView
-        android:layout_marginLeft="20dp"
-        android:id="@+id/Categoria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Drama"
-        android:layout_gravity="center_horizontal"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:textSize="15sp"
-        android:layout_margin="10dp"/>
+        <TextView
+            android:layout_marginTop="5sp"
+            android:id="@+id/mPontuacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="50sp"
+            android:text="4.5"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_favorite" />
+
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_share" />
     </LinearLayout>
 
 
