@@ -1,6 +1,8 @@
 package br.com.etecia.recyclerviewfilmes;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
@@ -11,10 +13,15 @@ public class MainActivity extends AppCompatActivity {
 
     List<Filmes> listaFilmes;
 
+    //Declarar recyclerview
+    RecyclerView idRecyclerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Apresentando o xml para o java
+        idRecyclerView = findViewById(R.id.idListaFilmes);
 
         //criando a base de dados para carregamento da lista de filmes
         listaFilmes = new ArrayList<>();
@@ -27,5 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
         //criando a classe adaptadora e passando os parâmetros
         MyAdapter adapter = new MyAdapter(getApplicationContext(),listaFilmes);
+
+        //Tipo de layout
+
+        idRecyclerView.setLayoutManager(new GridLayoutManager(getApplicationContext(),2));
     }
 }
