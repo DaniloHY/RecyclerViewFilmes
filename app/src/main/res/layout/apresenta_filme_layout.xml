@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ApresentaFilmeActivity">
+    tools:context=".ApresentaFilmeActivity"
+    android:background="#e5e9f4">
 
     <TextView
         android:id="@+id/clickTituloFilme"
