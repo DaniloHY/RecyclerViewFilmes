@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -11,6 +13,8 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
 
     TextView mTitulo, mCategoria, mDescricao;
     ImageView mImagem;
+
+    Button btnVoltar;
 
 
 
@@ -23,6 +27,14 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
         mCategoria = findViewById(R.id.clickCategoria);
         mDescricao = findViewById(R.id.clickDescricao);
         mImagem = findViewById(R.id.clickImage);
+        btnVoltar = findViewById(R.id.btnVoltar);
+
+        btnVoltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            }
+        });
 
         //Declarando intent para receber valor
         Intent intent = getIntent();
@@ -40,6 +52,8 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
         mDescricao.setText(descricao);
         mCategoria.setText(categoria);
         mImagem.setImageResource(imagemFilme);
+
+
 
     }
 }
