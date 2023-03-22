@@ -34,14 +34,12 @@ public class MainActivity extends AppCompatActivity {
                         R.drawable.casamento));
         listaFilmes.add(
                 new Filmes("A queda",
-                        "Para os melhores amigos Becky e Hunter, a vida é sobre vencer medos e ultrapassar limites. " +
-                                "Mas depois de subirem 2.000 pés até o topo de uma torre de rádio abandonada e remota, eles se veem presos sem saída.",
+                        "Para os melhores amigos Becky e Hunter, a vida é sobre vencer medos e ultrapassar limites. ",
                         "Suspense",
                         R.drawable.queda));
         listaFilmes.add(
                 new Filmes("Duro de Atuar",
-                                "Kevin Hart - interpretando uma versão de si mesmo - está em uma missão que desafia a morte para se tornar uma estrela de ação. " +
-                                "E com uma pequena ajuda de John Travolta, Nathalie Emmanuel e Josh Hartnett - ele pode conseguir.",
+                                "Kevin Hart - interpretando uma versão de si mesmo - está em uma missão que desafia a morte para se tornar uma estrela de ação. ",
                         "Comédia/Ação/Suspense",
                         R.drawable.duro));
         listaFilmes.add(
