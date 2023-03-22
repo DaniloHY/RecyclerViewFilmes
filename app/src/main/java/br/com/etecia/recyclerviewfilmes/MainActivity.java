@@ -44,13 +44,12 @@ public class MainActivity extends AppCompatActivity {
                         R.drawable.duro));
         listaFilmes.add(
                 new Filmes("Sayen",
-                        "Nas florestas do sul do Chile, uma jovem mapuche, Sayen, sai em busca dos mercenários que assassinaram sua avó. Utilizando seu treinamento, ela é capaz de sobreviver e virar o jogo contra esses intrusos. " ,
+                        "Nas florestas do sul do Chile, uma jovem mapuche, Sayen, sai em busca dos mercenários que assassinaram sua avó." ,
                         "Suspense",
                         R.drawable.sayen));
         listaFilmes.add(
                 new Filmes("Coringa",
-                        "\n" +
-                                "\"Coringa\" gira em torno do icônico arqui-inimigo e é uma história original e independente nunca antes vista na tela grande. " ,
+                        "\"Coringa\" gira em torno do icônico arqui-inimigo e é uma história original e independente nunca antes vista na tela grande. " ,
                         "Drama/Suspense",
                         R.drawable.coringa));
         listaFilmes.add(
@@ -60,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                         R.drawable.triangulo));
         listaFilmes.add(
                 new Filmes("Jogo de Amor e Ódio",
-                        "Decidida a alcançar o sucesso profissional sem comprometer sua ética, Lucy embarca em um jogo implacável de superioridade contra o frio e eficiente inimigo Joshua, uma rivalidade que é complicada por sua crescente atração por ele.",
+                        "Decidida a alcançar o sucesso profissional sem comprometer sua ética.",
                         "Comédia/Romance",
                         R.drawable.odio));
         listaFilmes.add(
@@ -70,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                         R.drawable.casado));
         listaFilmes.add(
                 new Filmes("Alguém que eu conhecia",
-                        "Em uma viagem para sua cidade natal, a viciada em trabalho Ally (Alison Brie) relembra seu primeiro amor, Sean (Jay Ellis), e começa a questionar tudo sobre a pessoa que ela se tornou. ",
+                        "Em uma viagem para sua cidade natal, a viciada em trabalho Ally (Alison Brie) relembra seu primeiro amor.",
                         "Comédia/Drama/Romance",
                         R.drawable.alguem));
         listaFilmes.add(
