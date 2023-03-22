@@ -81,7 +81,8 @@
         android:id="@+id/clickDescricao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="descricão"
+        android:text="Kevin Hart - interpretando uma versão de si mesmo - está em uma missão que desafia a morte para se tornar uma estrela de ação.
+E com uma pequena ajuda de John Travolta, Nathalie Emmanuel e Josh Hartnett - ele pode conseguir."
         android:layout_gravity="center_horizontal"
         android:textStyle="bold"
         android:textColor="#000"
