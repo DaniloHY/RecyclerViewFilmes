@@ -46,45 +46,38 @@ public class MainActivity extends AppCompatActivity {
                         R.drawable.duro));
         listaFilmes.add(
                 new Filmes("Sayen",
-                        "Nas florestas do sul do Chile, uma jovem mapuche, Sayen, sai em busca dos mercenários que assassinaram sua avó. Utilizando seu treinamento, ela é capaz de sobreviver e virar o jogo contra esses intrusos. " +
-                                "Ela deve escolher entre ir embora ou proteger não apenas o seu, mas também outros grupos indígenas da sinistra corporação que ameaça seus",
+                        "Nas florestas do sul do Chile, uma jovem mapuche, Sayen, sai em busca dos mercenários que assassinaram sua avó. Utilizando seu treinamento, ela é capaz de sobreviver e virar o jogo contra esses intrusos. " ,
                         "Suspense",
                         R.drawable.sayen));
         listaFilmes.add(
                 new Filmes("Coringa",
                         "\n" +
-                                "\"Coringa\" gira em torno do icônico arqui-inimigo e é uma história original e independente nunca antes vista na tela grande. " +
-                                "A exploração de Arthur Fleck (Joaquin Phoenix), um homem desconsiderado pela sociedade, não é apenas um estudo de personagem corajoso, mas também um conto de advertência mais amplo.",
+                                "\"Coringa\" gira em torno do icônico arqui-inimigo e é uma história original e independente nunca antes vista na tela grande. " ,
                         "Drama/Suspense",
                         R.drawable.coringa));
         listaFilmes.add(
                 new Filmes("Triângulo da Tristeza",
-                        "O casal modelo de celebridades, Carl e Yaya, são convidados para um cruzeiro de luxo para os super-ricos. " +
-                                "O que parecia digno de ser fotografado para as redes sociais termina catastroficamente, quando uma tempestade brutal atinge o navio deixando os sobreviventes presos em uma ilha deserta e lutando pela sobrevivência.",
+                        "O casal modelo de celebridades, Carl e Yaya, são convidados para um cruzeiro de luxo para os super-ricos. ",
                         "Comédia/Drama",
                         R.drawable.triangulo));
         listaFilmes.add(
                 new Filmes("Jogo de Amor e Ódio",
-                        "\n" +
-                                "Decidida a alcançar o sucesso profissional sem comprometer sua ética, Lucy embarca em um jogo implacável de superioridade contra o frio e eficiente inimigo Joshua, uma rivalidade que é complicada por sua crescente atração por ele.",
+                        "Decidida a alcançar o sucesso profissional sem comprometer sua ética, Lucy embarca em um jogo implacável de superioridade contra o frio e eficiente inimigo Joshua, uma rivalidade que é complicada por sua crescente atração por ele.",
                         "Comédia/Romance",
                         R.drawable.odio));
         listaFilmes.add(
                 new Filmes("Casando a minha Ex",
-                        "Mariana acredita que os casamentos são uma farsa, por isso se dedica a planejá-los. " +
-                                "Quando Luis, seu namorado, a pede em casamento, ela se recusa a entrar no negócio que tanto despreza. Para fingir que a separação não doeu, ela decide organizar o casamento do ex. O que Mariana não sabe é que Luis vai se casar para se vingar dela.",
+                        "Mariana acredita que os casamentos são uma farsa, por isso se dedica a planejá-los. " ,
                         "Comédia/Romance",
                         R.drawable.casado));
         listaFilmes.add(
                 new Filmes("Alguém que eu conhecia",
-                        "Em uma viagem para sua cidade natal, a viciada em trabalho Ally (Alison Brie) relembra seu primeiro amor, Sean (Jay Ellis), e começa a questionar tudo sobre a pessoa que ela se tornou. " +
-                                "As coisas só ficam mais confusas quando ela conhece a noiva de Sean, Cassidy (Kiersey Clemons), que a lembra da pessoa que ela costumava ser.",
+                        "Em uma viagem para sua cidade natal, a viciada em trabalho Ally (Alison Brie) relembra seu primeiro amor, Sean (Jay Ellis), e começa a questionar tudo sobre a pessoa que ela se tornou. ",
                         "Comédia/Drama/Romance",
                         R.drawable.alguem));
         listaFilmes.add(
                 new Filmes("Assasino sem rastro",
-                        "Um assassino descobre que se tornou um alvo depois de se recusar a concluir um trabalho para uma perigosa organização criminosa. O FBI também está atrás dele, obrigando-o a usar suas habilidades para estar sempre um passo à frente. " +
-                                "Mas começando com uma grave perda de memória, ele a fará questionar cada ação sua e, acima de tudo, em quem ele confia.",
+                        "Um assassino descobre que se tornou um alvo depois de se recusar a concluir um trabalho para uma perigosa organização criminosa. ",
                         "Ação/Suspense",
                         R.drawable.assasino));
 
