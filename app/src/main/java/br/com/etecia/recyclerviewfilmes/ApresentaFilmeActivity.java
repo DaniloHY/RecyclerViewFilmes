@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.material.appbar.MaterialToolbar;
+
 public class ApresentaFilmeActivity extends AppCompatActivity {
 
     TextView mTitulo, mCategoria, mDescricao;
@@ -16,7 +18,7 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
 
     Button btnVoltar;
 
-
+    MaterialToolbar idToolBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,15 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
         mDescricao = findViewById(R.id.clickDescricao);
         mImagem = findViewById(R.id.clickImage);
         btnVoltar = findViewById(R.id.btnVoltar);
+        idToolBar = findViewById(R.id.idToolBar);
+
+        //Clique do botão na Toolbar
+        idToolBar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            }
+        });
 
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
